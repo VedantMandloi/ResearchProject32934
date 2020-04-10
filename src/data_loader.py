@@ -4,7 +4,7 @@ import pandas as pd
 import re
 
 
-def clean_text(raw_text):
+def clean_text(raw_text: str) -> str:
     raw_text = raw_text.replace('\n', ' ')
     return re.sub(re.compile('<.*?>'), '', raw_text)
 
