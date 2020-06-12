@@ -1,0 +1,7 @@
+tensorflow==1.15.0
+starlette==0.13.4
+uvicorn==0.11.5
+bert-serving-client==1.10.0
+bert-serving-server==1.10.0
+gensim==3.8.2
+nltk==3.5

@@ -135,3 +135,13 @@ dmypy.json
 .idea/vcs.xml
 
 *.json
+*.pkl
+*.sav
+!/src/combined_models/doc2vec_svm_model/combined_d2v_model
+!/src/combined_models/doc2vec_svm_model/combined_d2v_model.docvecs.vectors_docs.npy
+!/api/saved_models/bert/
+!/api/saved_models/bert/vocab.txt
+!/api/saved_models/bert/bert_model.ckpt.meta
+!/api/saved_models/bert/bert_model.ckpt.index
+!/api/saved_models/bert/bert_model.ckpt.data-00000-of-00001
+
