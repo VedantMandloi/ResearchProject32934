@@ -20,7 +20,7 @@
 * The command used to run the bert server is 
 `bert-serving-start -pooling_layer -4 -3 -2 -model_dir="PATH_TO_SAVED_BERT_MODEL" -max_seq_len=256`
 
-* The model can be downloaded from https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip and placed in the appropriate folder in **api** folder
+* The model can be downloaded from https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip and placed in the appropriate folder in **api**
 
 * The saved models have not been included but they can be obtained from the respective notebooks in **src** folder.
 
